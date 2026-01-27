@@ -47,7 +47,7 @@ POST: Register a new user
 >/api/users/register
 
 POST: Login a user
-/api/users/login
+>/api/users/login
 
 GET: Get the logged-in user's profile (requires authentication)
-/api/users/profile
+>/api/users/profile

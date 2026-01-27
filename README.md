@@ -13,17 +13,16 @@ This is a user management service built with Node.js and MongoDB. It provides us
 
 ### Installation
 
-1. Clone the repository:
+1.Clone the repository:
    ```bash
    git clone <repository-url>
    cd user-management-service
 
-
-1.Install dependencies:
+2.Install dependencies:
 ```bash
     npm install
 
-2.Create a file in the root directory and add your MongoDB connection string and JWT secret:
+3.Create a file in the root directory and add your MongoDB connection string and JWT secret:
 ```bash
     .env
     MONGO_URI=mongodb://<username>:<password>@localhost:27017/<dbname>

@@ -19,14 +19,17 @@ This is a user management service built with Node.js and MongoDB. It provides us
    git clone <repository-url>
    cd user-management-service
 ```
+
 2.Install dependencies:
 ```bash
     npm install
 ```
+
 3.Create a file in the root directory and add your MongoDB connection string and JWT secret:
 ```bash
     .env
-```   MONGO_URI=mongodb://<username>:<password>@localhost:27017/<dbname>
+```  
+ MONGO_URI=mongodb://<username>:<password>@localhost:27017/<dbname>
     PORT=5000
     JWT_SECRET=your_jwt_secret
 

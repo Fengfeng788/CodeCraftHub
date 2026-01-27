@@ -44,7 +44,7 @@ To run the tests, use:
 ```
 ### API Endpoints
 POST: Register a new user
-/api/users/register
+>/api/users/register
 
 POST: Login a user
 /api/users/login
